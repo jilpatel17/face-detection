@@ -29,7 +29,8 @@
             const stream = await navigator.mediaDevices.getUserMedia({
                 audio:false,
                 video:{
-                    facingMode:'user'
+                    width:500,
+                    height:500
                 }
             })
             const faceDetection = async ()=>{
